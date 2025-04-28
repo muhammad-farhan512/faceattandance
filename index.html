@@ -701,12 +701,12 @@
         }
 
         // Sample data storage with initial data
-        let students = JSON.parse(localStorage.getItem('students')) || [
-            { id: 'ST001', name: 'John Doe', faceData: 'face1', avatarColor: '#6c5ce7' },
-            { id: 'ST002', name: 'Jane Smith', faceData: 'face2', avatarColor: '#00cec9' },
-            { id: 'ST003', name: 'Robert Johnson', faceData: 'face3', avatarColor: '#fd79a8' },
-            { id: 'ST004', name: 'Emily Davis', faceData: 'face4', avatarColor: '#fdcb6e' }
-        ];
+        // let students = JSON.parse(localStorage.getItem('students')) || [
+        //     { id: 'ST001', name: 'John Doe', faceData: 'face1', avatarColor: '#6c5ce7' },
+        //     { id: 'ST002', name: 'Jane Smith', faceData: 'face2', avatarColor: '#00cec9' },
+        //     { id: 'ST003', name: 'Robert Johnson', faceData: 'face3', avatarColor: '#fd79a8' },
+        //     { id: 'ST004', name: 'Emily Davis', faceData: 'face4', avatarColor: '#fdcb6e' }
+        // ];
 
         let attendance = JSON.parse(localStorage.getItem('attendance')) || [
             { studentId: 'ST001', date: getTodayDate(), status: 'present', timestamp: new Date().toISOString() },
